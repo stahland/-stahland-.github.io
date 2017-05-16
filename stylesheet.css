@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import url("Cinzel_Decorative/stylesheet.css");
+
+image { 
+   position: relative; 
+   width: 100%;
+}
+.nav{
+    list-style:none;
+    margin:0;
+	margin-left:40px;
+	margin-right:40px;
+    padding:0px;
+    text-align:center;
+	background-color:#373737;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px 25px;
+}
+a:link{
+	text-decoration:none;
+	color:#0F0E66;
+}
+a:hover{
+	color:#B7B7B7;
+}
+a:visited{
+	color:#121F58;
+}
+body{
+	background-attachment:fixed;
+	Background-color: #A2A2A2;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	text-align: center;
+	background-position: center center;
+}
+.logo{
+	position:absolute;
+	top:0px;
+	left:40px;
+}
+div{
+	background-color:#787575;
+	opacity: .8;
+	margin-left:100px;
+	margin-right:100px;
+}
+@media screen{
+.headings {
+	color: #000000;
+	text-align: center;
+	padding: 10px;
+	float: none;
+	height: auto;
+	width: auto;
+	margin: auto;
+	top: -12px;
+	bottom: 300px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	visibility: visible;
+	z-index: auto;
+	left: 455px;
+	right: auto;
+	
+}
+
+}
